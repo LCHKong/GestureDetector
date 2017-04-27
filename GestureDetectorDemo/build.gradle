@@ -3,7 +3,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.13.0'
+        classpath 'com.android.tools.build:gradle:2.2.0'
     }
 }
 apply plugin: 'com.android.application'
@@ -14,12 +14,12 @@ repositories {
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "21.1.1"
+    buildToolsVersion "25.0.3"
 
     defaultConfig {
         applicationId "com.zanelove.gesturedetectordemo"
         minSdkVersion 9
-        targetSdkVersion 21
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
